@@ -1,0 +1,38 @@
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.no-style {
+  list-style: none;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.header-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.header-nav ul li a:hover {
+  color: grey;
+}
+
+.rights {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+hr {
+  margin-top: 7%;
+}

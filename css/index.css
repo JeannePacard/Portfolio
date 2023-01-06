@@ -1,0 +1,63 @@
+.presentation {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.portrait {
+  width: 400px;
+}
+
+svg {
+  width: 400px;
+}
+
+.st0,
+.st1 {
+  animation-delay: 3s;
+  stroke-dasharray: 1257px;
+  stroke-dashoffset: 1257px;
+  animation-name: sign;
+  animation-duration: 7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.timing {
+  animation-delay: 8s;
+}
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.text-presentation {
+  margin-left: 10%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.last-works {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.arrow {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-weight: 100;
+  font-size: 80px;
+}
+
+.halloween {
+  margin-bottom: 10%;
+}

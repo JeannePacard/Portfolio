@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/works.css" />
+    <link rel="stylesheet" href="css/before-after.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Infographie</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav">
+        <ul class="logo no-style">
+          <li><a href="index.html">accueil</a></li>
+        </ul>
+        <ul class="header-links no-style">
+          <li><a href="infographie.html">infographie</a></li>
+          <li><a href="audiovisuel.html">audiovisuel</a></li>
+          <li><a href="web.html">web</a></li>
+        </ul>
+        <ul class="contact no-style">
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Laylow-->
+
+    <div
+      class="Laylow margin-top"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
+      <h1 class="work-title">Laylow</h1>
+      <div
+        class="w3-content w3-display-container w3-margin-bottom"
+        style="max-width: 1100px"
+      >
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/cover avant + cd v2.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/cover dos + cd B.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/cover ouverture.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/cdv2.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/cd face B.jpg"
+          style="width: 100%"
+        />
+        <div
+          class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle"
+          style="width: 100%"
+        >
+          <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">
+            &#10094;
+          </div>
+          <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">
+            &#10095;
+          </div>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(1)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(2)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(3)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(4)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(5)"
+          ></span>
+        </div>
+      </div>
+      <div class="work-align">
+        <p class="work-descr">
+          En création graphique, j'ai recréé la DA d'un album de Laylow :
+          .Raw-Z. <br />
+          Je suis partie sur un style sobre, épurée avec une touche de futurisme
+          caractéristique de Laylow. <br />
+          J'ai réalisé une cover face avant et arrière d'un vinyle, l'intérieur
+          et les deux faces du vinyle. <br />
+          J'ai également fait un livret avec les paroles et des photographies
+          prises et retouchés par moi. <br />
+          Vous pouvez le retrouver en intégralité en cliquant
+          <a href="#" class="link-lay">ici</a>
+        </p>
+        <div class="work-right">
+          <p class="work-softwares">
+            <span>LOGICIEL :</span> Photoshop, Illustrator, InDesign
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--halloween-->
+
+    <div
+      class="halloween margin-top"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
+      <h1 class="work-title">Halloween</h1>
+      <div id="comparison" class="w3-margin-bottom">
+        <figure>
+          <div id="divisor"></div>
+        </figure>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          id="slider"
+          oninput="moveDivisor()"
+        />
+      </div>
+      <div class="work-align">
+        <p class="work-descr">
+          En motion design, nous avons réalisé un petit clip sur le thème de
+          l’horreur. Pour cela nous devions créer entièrement un décor. J’ai
+          choisi de redécorer l’Orient Express.
+        </p>
+        <div class="work-right">
+          <p class="work-softwares"><span>LOGICIEL :</span> Photoshop</p>
+        </div>
+      </div>
+    </div>
+
+    <!--HEARTBIT-->
+
+    <div
+      class="heartbit margin-top"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
+      <h1 class="work-title">HeartBit</h1>
+      <img
+        src="./assets/logos/heartbit/charte_1.png"
+        alt="Charte Graphique HeartBit"
+        class="work-mockup width-60"
+      />
+      <div class="work-align">
+        <p class="work-descr">
+          Dès la rentrée 2022, nous avons eu comme objectif de en une semaine, à
+          côté de nos cours, trouver un concept pour une agence de speed dating
+          et réaliser un logo et une charte graphique. J’ai proposé ce logo et
+          cette charte graphique à mon groupe qui a validé la proposition.
+        </p>
+        <div class="work-right">
+          <p class="work-softwares"><span>LOGICIEL :</span> Illustrator</p>
+        </div>
+      </div>
+    </div>
+
+    <!--MATHILDE-->
+
+    <div
+      class="mathilde margin-top"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
+      <h1 class="work-title">Logo licence</h1>
+      <img
+        src="./assets/logos/logo mathilde.png"
+        alt="Logo licence MTACB Marseille"
+        class="work-mockup width-30"
+      />
+      <div class="work-align">
+        <p class="work-descr">
+          La licence professionnelle Méthodes et Techniques d’Analyses Chimiques
+          et Biologiques de Marseille cherchait un logo pour leur promotion
+          2022-2023 à mettre sur les blouses des étudiants et sur quelques
+          autres goodies. Je leur ai réalisé ce logo/illustration.
+        </p>
+        <div class="work-right">
+          <p class="work-softwares"><span>LOGICIEL :</span> Illustrator</p>
+        </div>
+      </div>
+    </div>
+
+    <!--affiche-film-->
+
+    <div
+      class="affiche-film margin-top"
+      data-aos="fade-left"
+      data-aos-duration="1000"
+    >
+      <h1 class="work-title">Portrait</h1>
+      <img
+        src="./assets/infographie/affiche_film.jpg"
+        alt="Affiche film Portrait de la jeune fille en feu"
+        class="work-mockup width-50"
+      />
+      <div class="work-align">
+        <p class="work-descr">
+          Après avoir vu le film « Portrait de la jeune fille en feu » et
+          d’avoir analysé son affiche, j’ai réalisé une nouvelle affiche du
+          film. J’ai représenté la page 28 qui est une page très symbolique dans
+          le film et qui laisse une couverture très intrigante.
+        </p>
+        <div class="work-right">
+          <p class="work-softwares"><span>LOGICIEL :</span> Photoshop</p>
+        </div>
+      </div>
+    </div>
+
+    <!--isis-->
+
+    <div class="isis margin-top" data-aos="fade-right" data-aos-duration="1000">
+      <h1 class="work-title">Isis</h1>
+      <img
+        src="./assets/infographie/charte_graphique_isis.png"
+        alt="Charte graphique Isis"
+        class="work-mockup width-70"
+      />
+      <div class="work-align">
+        <p class="work-descr">
+          Lors du second semestre, nous avons créé une entreprise de
+          vulgarisation de la fabrication de la bière. Je me suis occupé de
+          créer cette charte graphique. Seul le logo n’a pas été réalisé par moi
+          mais par ma camarade.
+        </p>
+        <div class="work-right">
+          <p class="work-softwares">
+            <span>LOGICIEL : </span>Illustrator / Figma
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <hr />
+    <section class="footer">
+      <p class="rights">Tous droits réservés - Jeanne PACARD FLAMMNI</p>
+    </section>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/before-after.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

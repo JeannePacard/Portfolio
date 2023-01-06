@@ -1,0 +1,41 @@
+.div-contact {
+  margin-top: 10%;
+}
+
+.contact-title {
+  font-size: 120px;
+}
+
+.contact-subtitle {
+  position: relative;
+  z-index: -2;
+  font-size: 100px;
+  text-align: right;
+  margin-top: -3%;
+  opacity: 0.6;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-transform: uppercase;
+}
+
+.footer-social-networks {
+  width: 70%;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2vw;
+  text-align: right;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.footer-social-networks a {
+  color: white;
+  text-decoration: none;
+  padding: 1.5%;
+}
+
+.footer-social-networks a:hover {
+  text-decoration: underline;
+}

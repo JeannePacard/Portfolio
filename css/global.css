@@ -1,0 +1,39 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif !important;
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.width-30 {
+  width: 30% !important;
+}
+
+.width-50 {
+  width: 50% !important;
+}
+
+.width-60 {
+  width: 60% !important;
+}
+
+.width-70 {
+  width: 70% !important;
+}
+
+.width-80 {
+  width: 80% !important;
+}
+
+.margin-top {
+  margin-top: 100px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
+}
