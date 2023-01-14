@@ -7,22 +7,22 @@
 .work-title {
   font-family: "Poppins" !important;
   font-weight: 800;
-  font-size: 180px;
+  font-size: 10vw;
   text-transform: uppercase;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   color: black;
 }
 
 .font-110 {
-  font-size: 110px !important;
+  font-size: 6.1vw !important;
 }
 
 .font-120 {
-  font-size: 120px !important;
+  font-size: 6.7vw !important;
 }
 
 .font-150 {
-  font-size: 150px !important;
+  font-size: 8.4vw !important;
 }
 
 .work-mockup {
@@ -41,7 +41,7 @@
 }
 
 .work-descr {
-  font-size: 25px;
+  font-size: 1.4vw;
   width: 70%;
   margin-right: 3%;
 }
@@ -49,7 +49,8 @@
 .work-right {
   padding-left: 3%;
   border-left: 1px solid white;
-  font-size: 18px;
+  line-height: 1.5;
+  font-size: 1vw;
 }
 
 .work-softwares span {

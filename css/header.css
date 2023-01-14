@@ -36,3 +36,8 @@
 hr {
   margin-top: 7%;
 }
+
+iconify-icon {
+  display: none;
+  cursor: pointer;
+}

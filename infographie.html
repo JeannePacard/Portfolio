@@ -19,12 +19,21 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/slider.css" />
     <link rel="stylesheet" href="css/works.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/before-after.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
     <title>Infographie</title>
   </head>
   <body>
     <header>
+      <iconify-icon
+        icon="ri:menu-2-fill"
+        style="color: white"
+        width="40px"
+        class="menu"
+      ></iconify-icon>
       <nav class="header-nav">
         <ul class="logo no-style">
           <li><a href="index.html">accueil</a></li>
@@ -59,6 +68,11 @@
         />
         <img
           class="mySlides"
+          src="./assets/infographie/laylow/vinyle.png"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
           src="./assets/infographie/laylow/cover dos + cd B.jpg"
           style="width: 100%"
         />
@@ -75,6 +89,21 @@
         <img
           class="mySlides"
           src="./assets/infographie/laylow/cd face B.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/Delivery_Bag_Mockup.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/disquette.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/livret.jpg"
           style="width: 100%"
         />
         <div
@@ -107,9 +136,25 @@
             class="w3-badge demo w3-border w3-transparent w3-hover-white"
             onclick="currentDiv(5)"
           ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(6)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(7)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(8)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(9)"
+          ></span>
         </div>
       </div>
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           En création graphique, j'ai recréé la DA d'un album de Laylow :
           .Raw-Z. <br />
@@ -120,12 +165,26 @@
           J'ai également fait un livret avec les paroles et des photographies
           prises et retouchés par moi. <br />
           Vous pouvez le retrouver en intégralité en cliquant
-          <a href="#" class="link-lay">ici</a>
+          <a
+            href="https://fr.calameo.com/read/00726592327fc3ffa9d40"
+            class="link-lay"
+            >ici</a
+          >
         </p>
         <div class="work-right">
           <p class="work-softwares">
             <span>LOGICIEL :</span> Photoshop, Illustrator, InDesign
           </p>
+          <p class="work-softwares">
+            <span>VOIR LE LIVRET : </span>
+            <a
+              target="_blank"
+              href="https://fr.calameo.com/read/00726592327fc3ffa9d40"
+              class="link"
+              >https://fr.calameo.com/read/00726592327fc3ffa9d40</a
+            >
+          </p>
+          <p class="work-softwares"><span>TAG :</span> #Exprimer</p>
         </div>
       </div>
     </div>
@@ -151,7 +210,7 @@
           oninput="moveDivisor()"
         />
       </div>
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           En motion design, nous avons réalisé un petit clip sur le thème de
           l’horreur. Pour cela nous devions créer entièrement un décor. J’ai
@@ -159,6 +218,7 @@
         </p>
         <div class="work-right">
           <p class="work-softwares"><span>LOGICIEL :</span> Photoshop</p>
+          <p class="work-softwares"><span>TAG :</span> #Concevoir</p>
         </div>
       </div>
     </div>
@@ -176,7 +236,7 @@
         alt="Charte Graphique HeartBit"
         class="work-mockup width-60"
       />
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           Dès la rentrée 2022, nous avons eu comme objectif de en une semaine, à
           côté de nos cours, trouver un concept pour une agence de speed dating
@@ -185,6 +245,7 @@
         </p>
         <div class="work-right">
           <p class="work-softwares"><span>LOGICIEL :</span> Illustrator</p>
+          <p class="work-softwares"><span>TAG :</span> #Concevoir</p>
         </div>
       </div>
     </div>
@@ -202,7 +263,7 @@
         alt="Logo licence MTACB Marseille"
         class="work-mockup width-30"
       />
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           La licence professionnelle Méthodes et Techniques d’Analyses Chimiques
           et Biologiques de Marseille cherchait un logo pour leur promotion
@@ -211,6 +272,7 @@
         </p>
         <div class="work-right">
           <p class="work-softwares"><span>LOGICIEL :</span> Illustrator</p>
+          <p class="work-softwares"><span>TAG :</span> #Concevoir</p>
         </div>
       </div>
     </div>
@@ -228,7 +290,7 @@
         alt="Affiche film Portrait de la jeune fille en feu"
         class="work-mockup width-50"
       />
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           Après avoir vu le film « Portrait de la jeune fille en feu » et
           d’avoir analysé son affiche, j’ai réalisé une nouvelle affiche du
@@ -237,6 +299,7 @@
         </p>
         <div class="work-right">
           <p class="work-softwares"><span>LOGICIEL :</span> Photoshop</p>
+          <p class="work-softwares"><span>TAG :</span> #Exprimer</p>
         </div>
       </div>
     </div>
@@ -250,7 +313,7 @@
         alt="Charte graphique Isis"
         class="work-mockup width-70"
       />
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           Lors du second semestre, nous avons créé une entreprise de
           vulgarisation de la fabrication de la bière. Je me suis occupé de
@@ -261,6 +324,7 @@
           <p class="work-softwares">
             <span>LOGICIEL : </span>Illustrator / Figma
           </p>
+          <p class="work-softwares"><span>TAG :</span> #Concevoir</p>
         </div>
       </div>
     </div>
@@ -275,5 +339,6 @@
     </script>
     <script src="js/before-after.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/header-nav.js" defer></script>
   </body>
 </html>

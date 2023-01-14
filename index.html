@@ -19,12 +19,20 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/slider.css" />
     <link rel="stylesheet" href="css/works.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
     <script src="js/appear.js"></script>
     <title>Accueil</title>
   </head>
   <body>
     <header>
+      <iconify-icon
+        icon="ri:menu-2-fill"
+        style="color: white"
+        width="40px"
+        class="menu"
+      ></iconify-icon>
       <nav class="header-nav">
         <ul class="logo no-style">
           <li><a href="index.html">accueil</a></li>
@@ -200,6 +208,38 @@
       <p class="arrow">↓</p>
     </div>
 
+    <div class="sae margin-top" data-aos="fade-left" data-aos-duration="1000">
+      <h1 class="work-title font-120">tour du monde</h1>
+      <img
+        src="./assets/siteweb/cattravel.png"
+        alt="Site web cat travel"
+        class="work-mockup"
+      />
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
+        <p class="work-descr">
+          Lors de notre 3eme semestre, nous avions pour mission de représenter
+          des données avec comme thème l’infini. Nous avons décidé de nous
+          pencher sur l’infini du monde et des découvertes. Nous proposons donc
+          un voyage pour découvrir les monuments du monde. J’ai entièrement codé
+          le site et ai réalisé des monuments.
+        </p>
+        <div class="work-right">
+          <p class="work-softwares"><span>LANGAGES :</span> HTML/CSS/JS</p>
+          <p class="work-softwares"><span>BIBLIOTHEQUES :</span> HTML/CSS/JS</p>
+          <p class="work-softwares">
+            <span>LIEN : </span>
+            <a
+              target="_blank"
+              href="https://jeannepacard.github.io/cattravel/"
+              class="link"
+              >https://jeannepacard.github.io/cattravel/</a
+            >
+          </p>
+          <p class="work-softwares"><span>TAG :</span> #Développer</p>
+        </div>
+      </div>
+    </div>
+
     <div
       class="Laylow margin-top"
       data-aos="fade-left"
@@ -213,6 +253,11 @@
         <img
           class="mySlides"
           src="./assets/infographie/laylow/cover avant + cd v2.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/vinyle.png"
           style="width: 100%"
         />
         <img
@@ -233,6 +278,21 @@
         <img
           class="mySlides"
           src="./assets/infographie/laylow/cd face B.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/Delivery_Bag_Mockup.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/disquette.jpg"
+          style="width: 100%"
+        />
+        <img
+          class="mySlides"
+          src="./assets/infographie/laylow/livret.jpg"
           style="width: 100%"
         />
         <div
@@ -265,9 +325,25 @@
             class="w3-badge demo w3-border w3-transparent w3-hover-white"
             onclick="currentDiv(5)"
           ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(6)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(7)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(8)"
+          ></span>
+          <span
+            class="w3-badge demo w3-border w3-transparent w3-hover-white"
+            onclick="currentDiv(9)"
+          ></span>
         </div>
       </div>
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           En création graphique, j'ai recréé la DA d'un album de Laylow :
           .Raw-Z. <br />
@@ -278,12 +354,26 @@
           J'ai également fait un livret avec les paroles et des photographies
           prises et retouchés par moi. <br />
           Vous pouvez le retrouver en intégralité en cliquant
-          <a href="#" class="link-lay">ici</a>
+          <a
+            href="https://fr.calameo.com/read/00726592327fc3ffa9d40"
+            class="link-lay"
+            >ici</a
+          >
         </p>
         <div class="work-right">
           <p class="work-softwares">
             <span>LOGICIEL :</span> Photoshop, Illustrator, InDesign
           </p>
+          <p class="work-softwares">
+            <span>VOIR LE LIVRET : </span>
+            <a
+              target="_blank"
+              href="https://fr.calameo.com/read/00726592327fc3ffa9d40"
+              class="link"
+              >https://fr.calameo.com/read/00726592327fc3ffa9d40</a
+            >
+          </p>
+          <p class="work-softwares"><span>TAG :</span> #Exprimer</p>
         </div>
       </div>
     </div>
@@ -295,43 +385,23 @@
         alt="Portfolio sirine benamour"
         class="work-mockup"
       />
-      <div class="work-align">
+      <div class="work-align" data-aos="fade-in" data-aos-duration="1000">
         <p class="work-descr">
           Afin de rendre service à une amie cherchant un stage et une
           alternance, j’ai réalisé ce portfolio en quelques jours.
         </p>
         <div class="work-right">
           <p class="work-softwares"><span>LANGAGES :</span> HTML/CSS</p>
-          <a
-            href="https://sirinebenamour.github.io/portfolio/"
-            class="work-button"
-            target="_blank"
-            >- voir le site -</a
-          >
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="heartbit margin-top"
-      data-aos="fade-left"
-      data-aos-duration="1000"
-    >
-      <h1 class="work-title">HeartBit</h1>
-      <img
-        src="./assets/logos/heartbit/charte_1.png"
-        alt="Charte Graphique HeartBit"
-        class="work-mockup"
-      />
-      <div class="work-align">
-        <p class="work-descr">
-          Dès la rentrée 2022, nous avons eu comme objectif de en une semaine, à
-          côté de nos cours, trouver un concept pour une agence de speed dating
-          et réaliser un logo et une charte graphique. J’ai proposé ce logo et
-          cette charte graphique à mon groupe qui a validé la proposition.
-        </p>
-        <div class="work-right">
-          <p class="work-softwares"><span>LOGICIEL :</span> Illustrator</p>
+          <p class="work-softwares">
+            <span>LIEN : </span>
+            <a
+              target="_blank"
+              href="https://sirinebenamour.github.io/portfolio/"
+              class="link"
+              >https://sirinebenamour.github.io/portfolio/</a
+            >
+          </p>
+          <p class="work-softwares"><span>TAG :</span> #Développer</p>
         </div>
       </div>
     </div>
@@ -344,5 +414,6 @@
       AOS.init();
     </script>
     <script src="js/slider.js"></script>
+    <script src="js/header-nav.js" defer></script>
   </body>
 </html>

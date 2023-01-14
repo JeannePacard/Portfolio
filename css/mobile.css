@@ -1,0 +1,106 @@
+@media screen and (max-width: 700px) {
+  html {
+    width: 90%;
+    margin: auto;
+  }
+  /* header */
+
+  iconify-icon {
+    margin-top: 5%;
+    display: block;
+  }
+  .header-nav {
+    flex-direction: column;
+    display: none;
+    width: 100%;
+  }
+
+  .no-style {
+    list-style: none;
+  }
+
+  .header-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header-nav ul li {
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .header-nav ul li a {
+    font-size: 20px;
+  }
+  .openmenu {
+    display: block;
+  }
+  /* font global */
+
+  /* travaux */
+
+  .work-title {
+    font-size: 100px;
+  }
+  .work-align {
+    flex-direction: column;
+  }
+
+  .work-descr {
+    font-size: 16px;
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 3%;
+  }
+
+  .work-right {
+    padding-top: 3%;
+    border-top: 1px solid white;
+    border-left: none;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  /* index */
+  .presentation {
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .portrait {
+    width: 400px;
+    margin: auto;
+  }
+
+  svg {
+    width: 400px;
+  }
+
+  .st0,
+  .st1 {
+    animation-delay: 0s;
+  }
+
+  .timing {
+    animation-delay: 3s;
+  }
+
+  .title {
+    font-size: 40px;
+    margin: auto;
+    font-weight: 500;
+  }
+  iframe {
+    height: 350px;
+  }
+  /* contact */
+
+  .contact-title {
+    font-size: 55px;
+  }
+
+  .contact-subtitle {
+    font-size: 50px;
+  }
+
+  .footer-social-networks {
+    font-size: 14px;
+  }
+}

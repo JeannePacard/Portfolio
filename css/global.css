@@ -4,6 +4,7 @@ html {
   font-family: "Poppins", sans-serif !important;
   width: 70%;
   margin: auto;
+  overflow-x: hidden;
 }
 
 body {
