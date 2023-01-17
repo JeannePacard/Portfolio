@@ -1,5 +1,5 @@
 var chaine =
-  "Salut ! Je suis Jeanne, développeuse web, mais également passionnée de graphisme, audiovisuel et de design.";
+  "Salut ! Je suis Jeanne, développeuse web, mais également passionnée de graphisme, audiovisuel et de design. <br /> Je suis à la recherche d'une alternance pour l'année 2023/2024.";
 var nb_car = chaine.length;
 var tableau = chaine.split("");
 texte = new Array();
