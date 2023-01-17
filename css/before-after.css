@@ -1,9 +1,10 @@
 div#comparison {
-  max-width: 100%;
+  width: 90%;
   height: 60vw;
-  max-width: 100%;
+  max-width: 90%;
   max-height: 600px;
   overflow: hidden;
+  margin: auto;
 }
 div#comparison figure {
   background-image: url("../assets/infographie/decors-halloween-sans-modif.png");
@@ -12,6 +13,7 @@ div#comparison figure {
   position: relative;
   font-size: 0;
   width: 100%;
+
   height: 100%;
   margin: 0;
 }
