@@ -22,6 +22,16 @@ svg {
   animation-duration: 7s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
+  stroke: var(--main-font);
+}
+
+.st0 {
+  fill: none;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  stroke-miterlimit: 10;
 }
 
 .timing {
