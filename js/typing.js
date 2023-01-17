@@ -1,21 +1,23 @@
-const chaine =
+const presentationText =
   "Salut ! Je suis Jeanne, développeuse web, mais également passionnée de graphisme, audiovisuel et de design. <br /> Je suis à la recherche d'une alternance pour l'année 2023/2024.";
-const nb_car = chaine.length;
-const tableau = chaine.split("");
+const presentationTextSize = presentationText.length;
+const presentationArray = presentationText.split("");
 
-let texte = new Array();
-let txt = "";
-const nb_msg = nb_car - 1;
+let text = [];
+let typingText = "";
 
-for (i = 0; i < nb_car; i++) {
-  texte[i] = txt + tableau[i];
-  txt = texte[i];
+for (i = 0; i < presentationTextSize; i++) {
+  text[i] = typingText + presentationArray[i];
+  typingText = text[i];
 }
 
-let actual_texte = 0;
-function changeMessage() {
-  document.getElementById("bloc").innerHTML = texte[actual_texte];
-  actual_texte++;
-  if (actual_texte >= texte.length) actual_texte = nb_msg;
+let letterDisplayed = 0;
+
+function typingPresentation() {
+  document.getElementById("bloc").innerHTML = text[letterDisplayed];
+  letterDisplayed++;
+  if (letterDisplayed >= text.length)
+    letterDisplayed = presentationTextSize - 1;
 }
-if (document.getElementById) setInterval("changeMessage()", 50);
+
+setInterval("typingPresentation()", 50);
