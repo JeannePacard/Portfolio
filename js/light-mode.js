@@ -20,10 +20,8 @@ function checkTheme() {
   const localStorageTheme = localStorage.getItem("theme");
 
   if (localStorageTheme !== null && localStorageTheme === "dark") {
-    // set the theme of body
     document.body.className = localStorageTheme;
 
-    // adjust the slider position
     const themeSwitch = document.getElementById("theme-switch");
     themeSwitch.checked = true;
   }
