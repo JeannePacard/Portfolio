@@ -59,7 +59,7 @@
 }
 
 .work-softwares span {
-  color: rgb(112, 112, 112);
+  color: var(--main-tags);
   font-weight: 600;
 }
 
@@ -71,7 +71,7 @@
 
 .work-button:hover {
   text-decoration: underline;
-  color: rgb(112, 112, 112);
+  color: var(--main-tags);
 }
 
 iframe {

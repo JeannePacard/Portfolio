@@ -24,7 +24,7 @@
 }
 
 .header-nav ul li a:hover {
-  color: grey;
+  color: var(--main-tags);
 }
 
 .rights {

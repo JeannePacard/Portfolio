@@ -46,11 +46,13 @@ P {
 .dark {
   --main-background: #242424;
   --main-font: white;
+  --main-tags: rgb(112, 112, 112);
 }
 
 .light {
-  --main-background: #81928d;
-  --main-font: #242424;
+  --main-background: #6b7975;
+  --main-font: rgb(222, 212, 224);
+  --main-tags: #1e312c;
 }
 
 .toggle-switch {
