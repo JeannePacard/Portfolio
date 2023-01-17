@@ -53,7 +53,7 @@
 
   .work-right {
     padding-top: 3%;
-    border-top: 1px solid white;
+    border-top: 1px solid var(--main-font);
     border-left: none;
     line-height: 1.5;
     font-size: 12px;

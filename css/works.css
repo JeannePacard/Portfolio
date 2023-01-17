@@ -9,8 +9,13 @@
   font-weight: 800;
   font-size: 10vw;
   text-transform: uppercase;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  color: black;
+  text-shadow: -1px 0 var(--main-font), 0 1px var(--main-font),
+    1px 0 var(--main-font), 0 -1px var(--main-font);
+  color: var(--main-background);
+}
+
+.licence {
+  font-size: 9.4vw;
 }
 
 .font-110 {
@@ -48,7 +53,7 @@
 
 .work-right {
   padding-left: 3%;
-  border-left: 1px solid white;
+  border-left: 2px solid var(--main-font);
   line-height: 1.5;
   font-size: 1vw;
 }
@@ -60,7 +65,7 @@
 
 .work-button {
   text-decoration: none;
-  color: white;
+  color: var(--main-font);
   margin-left: 25%;
 }
 
@@ -76,7 +81,7 @@ iframe {
 }
 
 .link {
-  color: white;
+  color: var(--main-font);
   text-decoration: none;
 }
 .link:hover {

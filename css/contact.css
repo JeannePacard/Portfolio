@@ -13,8 +13,9 @@
   text-align: right;
   margin-top: -3%;
   opacity: 0.6;
-  color: black;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: var(--main-background);
+  text-shadow: -1px 0 var(--main-font), 0 1px var(--main-font),
+    1px 0 var(--main-font), 0 -1px var(--main-font);
   text-transform: uppercase;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .footer-social-networks a {
-  color: white;
+  color: var(--main-font);
   text-decoration: none;
   padding: 1.5%;
 }

@@ -1,6 +1,4 @@
 html {
-  background-color: black;
-  color: white;
   font-family: "Poppins", sans-serif !important;
   width: 70%;
   margin: auto;
@@ -8,6 +6,8 @@ html {
 }
 
 body {
+  background: var(--main-background);
+  color: var(--main-font);
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -37,4 +37,84 @@ body {
 
 .margin-top-200 {
   margin-top: 200px;
+}
+
+.dark {
+  --main-background: black;
+  --main-font: white;
+}
+
+.light {
+  --main-background: white;
+  --main-font: black;
+}
+
+.toggle-switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --toggle-light: hsl(230, 22%, 74%);
+  --toggle-dark: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: fixed;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  bottom: 30px;
+  right: 30px;
+}
+
+/* Hide default html checkbox */
+.switch input {
+  opacity: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--toggle-light);
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 32px;
+  bottom: 5px;
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background: linear-gradient(90grad, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+input:checked + .slider:before {
+  transform: translateX(-24px);
+}
+.slider,
+.round {
+  border-radius: 34px;
+}
+
+.round::before {
+  border-radius: 50%;
+}
+
+input:checked + .round::before {
+  background-color: hsl(230, 17%, 14%);
 }
