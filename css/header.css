@@ -33,6 +33,7 @@
 
 hr {
   margin-top: 7%;
+  color: var(--main-font);
 }
 
 iconify-icon {

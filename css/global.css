@@ -46,43 +46,18 @@ P {
 
 .dark {
   --main-background: #242424;
-  --main-font: white;
+  --main-font: rgb(188, 188, 188);
   --main-tags: rgb(99, 99, 99);
-  --works-sky: #00e1fd;
   --works-blue: #2e51c1;
-  --works-pink: #fc007a;
-  --works-green: #00ff5b;
-  --works-orange: #ff5f2b;
-  --works-yellow: #ffe53b;
-  --works-gris: rgb(99, 99, 99);
+  --text-descr: rgb(157, 157, 157) !important;
 }
 
 .light {
   --main-background: #efebe5;
   --main-font: rgb(38, 36, 38);
   --main-tags: rgb(99, 99, 99);
-  --works-sky: #23afc2;
   --works-blue: #2e51c1;
-  --works-pink: #fc007a;
-  --works-green: #0ecb50;
-  --works-orange: #f9774b;
-  --works-yellow: #ffdd00;
-  --works-gris: rgb(99, 99, 99);
-}
-
-.sky {
-  -webkit-text-stroke: 2px var(--works-sky) !important;
-  text-shadow: 0 0 5px var(--works-sky) !important;
-}
-
-.orange {
-  -webkit-text-stroke: 2px var(--works-orange) !important;
-  text-shadow: 0 0 5px var(--works-orange) !important;
-}
-
-.pink {
-  -webkit-text-stroke: 2px var(--works-pink) !important;
-  text-shadow: 0 0 5px var(--works-pink) !important;
+  --text-descr: rgb(51, 51, 51) !important;
 }
 
 .blue {
@@ -90,47 +65,8 @@ P {
   text-shadow: 0 0 5px var(--works-blue) !important;
 }
 
-.green {
-  -webkit-text-stroke: 2px var(--works-green) !important;
-  text-shadow: 0 0 5px var(--works-green) !important;
-}
-
-.yellow {
-  -webkit-text-stroke: 2px var(--works-yellow) !important;
-  text-shadow: 0 0 5px var(--works-yellow) !important;
-}
-
-.gris {
-  -webkit-text-stroke: 2px var(--works-gris) !important;
-  text-shadow: 0 0 5px var(--works-gris) !important;
-}
-
-.color-sky {
-  color: var(--works-sky) !important;
-}
-
-.color-orange {
-  color: var(--works-orange) !important;
-}
-
-.color-pink {
-  color: var(--works-pink) !important;
-}
-
 .color-blue {
   color: var(--works-blue) !important;
-}
-
-.color-green {
-  color: var(--works-green) !important;
-}
-
-.color-yellow {
-  color: var(--works-yellow) !important;
-}
-
-.color-gris {
-  color: var(--works-gris) !important;
 }
 
 .toggle-switch {
@@ -141,11 +77,15 @@ P {
 }
 
 :root {
-  --toggle-light: #242424;
+  --toggle-light: linear-gradient(
+    90deg,
+    rgba(46, 81, 193, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
   --toggle-dark: linear-gradient(
     90deg,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgba(46, 81, 193, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
   );
 }
 
@@ -172,7 +112,11 @@ P {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--toggle-light);
+  background-color: linear-gradient(
+    90deg,
+    rgba(46, 81, 193, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
   transition: 0.4s;
 }
 
@@ -190,14 +134,23 @@ P {
 input:checked + .slider {
   background: linear-gradient(
     90deg,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgba(46, 81, 193, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
   );
 }
 
 input:checked + .slider:before {
   transform: translateX(-24px);
 }
+
+input + .slider {
+  background: linear-gradient(
+    90deg,
+    rgba(46, 81, 193, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
 .slider,
 .round {
   border-radius: 34px;
