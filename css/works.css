@@ -9,8 +9,6 @@
   font-weight: 800;
   font-size: 9.5vw;
   text-transform: uppercase;
-  text-shadow: -1px 0 var(--main-font), 0 1px var(--main-font),
-    1px 0 var(--main-font), 0 -1px var(--main-font);
   color: var(--main-background);
 }
 
@@ -59,7 +57,6 @@
 }
 
 .work-softwares span {
-  color: var(--main-tags);
   font-weight: 600;
 }
 
