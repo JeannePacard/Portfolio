@@ -50,9 +50,9 @@ P {
 }
 
 .light {
-  --main-background: #6b7975;
+  --main-background: #ab98a8;
   --main-font: rgb(222, 212, 224);
-  --main-tags: #1e312c;
+  --main-tags: #51354e;
 }
 
 .toggle-switch {

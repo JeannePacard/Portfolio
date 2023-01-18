@@ -27,12 +27,6 @@
   color: var(--main-tags);
 }
 
-.rights {
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 hr {
   margin-top: 7%;
 }
@@ -40,4 +34,9 @@ hr {
 iconify-icon {
   display: none;
   cursor: pointer;
+}
+
+.rights {
+  text-align: center;
+  margin: 2% auto;
 }
