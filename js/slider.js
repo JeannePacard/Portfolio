@@ -28,3 +28,9 @@ function showDivs(n) {
   x[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " w3-white";
 }
+const COULDOWN_DURARION = 10_000; // 10 secondes
+
+setInterval(function () {
+  // passe au slide suivant:
+  plusDivs(1);
+}, COULDOWN_DURARION);
