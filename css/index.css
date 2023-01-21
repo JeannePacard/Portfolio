@@ -52,6 +52,14 @@ svg {
   line-height: 1.15;
 }
 
+.text-presentation span {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--main-background);
+  -webkit-text-stroke: 2px var(--works-blue) !important;
+  text-shadow: 0 0 5px var(--works-blue) !important;
+}
+
 .last-works {
   display: flex;
   flex-direction: row;

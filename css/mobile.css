@@ -9,6 +9,9 @@
     margin-top: 5%;
     display: block;
   }
+  .text-presentation {
+    font-size: 30px;
+  }
   .header-nav {
     flex-direction: column;
     display: none;
@@ -38,7 +41,10 @@
   /* travaux */
 
   .work-title {
-    font-size: 100px;
+    font-size: 50px !important;
+  }
+  .photomontage {
+    font-size: 35px !important;
   }
   .work-align {
     flex-direction: column;

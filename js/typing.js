@@ -1,5 +1,5 @@
 const presentationText =
-  "Salut ! Je suis Jeanne, développeuse web, mais également passionnée de graphisme, audiovisuel et de design. <br /> Je suis à la recherche d'une alternance pour l'année 2023/2024.";
+  "Salut ! Je suis <span>Jeanne</span>, <span>développeuse web</span>, mais également passionnée de graphisme, audiovisuel et de design. <br /> Je suis à la recherche d'une <span>alternance</span> pour l'année <span>2023/2024</span>.";
 const presentationTextSize = presentationText.length;
 const presentationArray = presentationText.split("");
 
