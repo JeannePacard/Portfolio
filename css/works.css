@@ -74,6 +74,21 @@
   color: var(--main-tags);
 }
 
+.voirplus-button {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.work-voirplus {
+  text-decoration: none;
+  font-size: 1.4vw;
+  text-align: center;
+  color: var(--works-blue);
+}
+.work-voirplus:hover {
+  text-decoration: underline;
+}
+
 iframe {
   width: 100%;
   height: 650px;
